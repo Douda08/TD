@@ -1,0 +1,167 @@
+<p><img src="image.png" alt="Logo IUS" /> # Faculté des sciences et des
+technologies<br />
+<strong>ANNEE UNIVERSITAIRE 2023-2024</strong></p>
+<h2 id="licence-3-sciences-informatiques">LICENCE 3 – Sciences
+Informatiques</h2>
+<h3 id="réseaux-2">Réseaux 2</h3>
+<p><strong>Soumis au chargé de cours :</strong> Ismaël SAINT AMOUR<br />
+<strong>Préparé par :</strong> Jameson DOMINIQUE<br />
+<strong>Date :</strong> 01 Avril 2025</p>
+<hr />
+<h1
+id="introduction-à-gns3-et-configuration-dun-réseau-de-base">Introduction
+à GNS3 et Configuration d’un Réseau de Base</h1>
+<h2 id="td-2">TD 2</h2>
+<h3 id="objectif">Objectif :</h3>
+<p>Découvrir comment installer et intégrer GNS3 avec VMware Workstation
+Pro pour utiliser une machine virtuelle comme serveur dans un
+environnement de simulation réseau. - Installer et configurer GNS3 sur
+votre machine.<br />
+- Installer VMware Workstation Pro et créer une machine virtuelle qui
+jouera le rôle de serveur.<br />
+- Importer la VMware Workstation Pro dans GNS3 et l’intégrer dans une
+topologie réseau simulée.<br />
+- Découvrir l’outil GNS3 pour la simulation de réseaux.</p>
+<h3 id="matériel-requis">Matériel Requis :</h3>
+<ul>
+<li><strong>GNS3 installé</strong> (téléchargement depuis <a
+href="https://www.gns3.com">gns3.com</a>).<br />
+</li>
+<li><strong>Images IOS Cisco</strong> (ex : Cisco 7200, Cisco
+3725).<br />
+</li>
+<li><strong>VMware Workstation Pro</strong> (optionnel).<br />
+</li>
+<li>Un PC ou VM sous Linux/Windows pour simuler des hôtes.</li>
+</ul>
+<hr />
+<h2
+id="installation-de-gns3-et-importation-dans-vmware-workstation-pro">1.
+Installation de GNS3 et Importation dans VMware Workstation Pro</h2>
+<h3 id="importation-de-lappareil-dans-vmware-workstation-pro">1.1
+Importation de l’appareil dans VMware Workstation Pro :</h3>
+<ol type="1">
+<li>Ouvrez VMware Workstation Pro.<br />
+</li>
+<li>Cliquez sur <strong>Fichier → Importer un appareil
+virtuel</strong>.<br />
+</li>
+<li>Sélectionnez le fichier <code>.ova</code> ou <code>.ovf</code>
+téléchargé.<br />
+</li>
+<li>Suivez les instructions à l’écran.</li>
+</ol>
+<p><img src="Screenshot%20(1).png" alt="image1" /> <img
+src="Screenshot%20(2).png" alt="alt text" /> <img
+src="Screenshot%20(3).png" alt="alt text" /> <img
+src="Screenshot%20(4).png" alt="alt text" /> <img
+src="Screenshot%20(5).png" alt="alt text" /> <img
+src="Screenshot%20(6).png" alt="alt text" /> <img
+src="Screenshot%20(7).png" alt="alt text" /> <img
+src="Screenshot%20(8).png" alt="alt text" /> <img
+src="Screenshot%20(9).png" alt="alt text" /> <img
+src="Screenshot%20(10).png" alt="alt text" /> <img
+src="Screenshot%20(11).png" alt="alt text" /> <img
+src="Screenshot%20(12).png" alt="alt text" /> <img
+src="Screenshot%20(13).png" alt="alt text" /> <img
+src="Screenshot%20(14).png" alt="alt text" /> <img
+src="Screenshot%20(15).png" alt="alt text" /> <img
+src="Screenshot%20(16).png" alt="alt text" /> <img
+src="Screenshot%20(17).png" alt="alt text" /> <img
+src="Screenshot%20(18).png" alt="alt text" /> <img
+src="Screenshot%20(19).png" alt="alt text" /> <img
+src="Screenshot%20(20).png" alt="alt text" /> <img
+src="Screenshot%20(21).png" alt="alt text" /> <img
+src="Screenshot%20(22).png" alt="alt text" /> <img
+src="Screenshot%20(23).png" alt="alt text" /> <img
+src="Screenshot%20(24).png" alt="alt text" /> <img
+src="Screenshot%20(25).png" alt="alt text" /> <img
+src="Screenshot%20(26).png" alt="alt text" /> <img
+src="Screenshot%20(27).png" alt="alt text" /> <img
+src="Screenshot%20(28).png" alt="alt text" /> <img
+src="Screenshot%20(29).png" alt="alt text" /> <img
+src="Screenshot%20(30).png" alt="alt text" /> <img
+src="Screenshot%20(31).png" alt="alt text" /> <img
+src="Screenshot%20(32).png" alt="alt text" /> <img
+src="Screenshot%20(33).png" alt="alt text" /> <img
+src="Screenshot%20(34).png" alt="alt text" /> <img
+src="Screenshot%20(35).png" alt="alt text" /> <img
+src="Screenshot%20(36).png" alt="alt text" /> <img
+src="Screenshot%20(37).png" alt="alt text" /> —</p>
+<h2 id="ajouter-les-images-ios-cisco-ex-cisco-7200-cisco-3725">2.
+Ajouter les images IOS Cisco (ex : Cisco 7200, Cisco 3725)</h2>
+<h3 id="étapes">Étapes :</h3>
+<ol type="1">
+<li>Dans GNS3, accédez à <strong>Settings → Appliances</strong>.<br />
+</li>
+<li>Cliquez sur <strong>Install appliance</strong> et sélectionnez
+l’image Cisco souhaitée.<br />
+</li>
+<li>Configurez les paramètres de l’appliance (mémoire, interfaces).</li>
+</ol>
+<p><img src="Screenshot%20(38).png" alt="alt text" /> <img
+src="Screenshot%20(39).png" alt="alt text" /> <img
+src="Screenshot%20(40).png" alt="alt text" /> <img
+src="Screenshot%20(41).png" alt="alt text" /> <img
+src="Screenshot%20(42).png" alt="alt text" /> <img
+src="Screenshot%20(43).png" alt="alt text" /> <img
+src="Screenshot%20(44).png" alt="alt text" /> <img
+src="Screenshot%20(45).png" alt="alt text" /> <img
+src="Screenshot%20(46).png" alt="alt text" /> <img
+src="Screenshot%20(47).png" alt="alt text" /> <img
+src="Screenshot%20(48).png" alt="alt text" /> <img
+src="Screenshot%20(49).png" alt="alt text" /> <img
+src="Screenshot%20(50).png" alt="alt text" /> <img
+src="Screenshot%20(51).png" alt="alt text" /> <img
+src="Screenshot%20(52).png" alt="alt text" /> <img
+src="Screenshot%20(53).png" alt="alt text" /> <img
+src="Screenshot%20(54).png" alt="alt text" /> <img
+src="Screenshot%20(55).png" alt="alt text" /> <img
+src="Screenshot%20(56).png" alt="alt text" /> <img
+src="Screenshot%20(57).png" alt="alt text" /> <img
+src="Screenshot%20(58).png" alt="alt text" /> <img
+src="Screenshot%20(59).png" alt="alt text" /></p>
+<hr />
+<h2 id="configuration-de-la-topologie-réseau">3. Configuration de la
+Topologie Réseau</h2>
+<h3 id="exemple-de-topologie">Exemple de topologie :</h3>
+<ul>
+<li><strong>Routeurs :</strong> Cisco 3725, Cisco 7200.<br />
+</li>
+<li><strong>PC virtuels :</strong> VPCS (Virtual PC Simulator).<br />
+</li>
+<li><strong>Connexions :</strong> Switchs Ethernet, Cloud.</li>
+</ul>
+<p><img src="Screenshot%20(60).png" alt="alt text" /> <img
+src="Screenshot%20(61).png" alt="alt text" /> <img
+src="Screenshot%20(62).png" alt="alt text" /> <img
+src="Screenshot%20(63).png" alt="alt text" /> <img
+src="Screenshot%20(64).png" alt="alt text" /> <img
+src="Screenshot%20(65).png" alt="alt text" /> <img
+src="Screenshot%20(66).png" alt="alt text" /> <img
+src="Screenshot%20(67).png" alt="alt text" /> <img
+src="Screenshot%20(68).png" alt="alt text" /> <img
+src="Screenshot%20(69).png" alt="alt text" /> <img
+src="Screenshot%20(70).png" alt="alt text" /> <img
+src="Screenshot%20(71).png" alt="alt text" /> <img
+src="Screenshot%20(72).png" alt="alt text" /> <img
+src="Screenshot%20(73).png" alt="alt text" /> <img
+src="Screenshot%20(74).png" alt="alt text" /> <img
+src="Screenshot%20(75).png" alt="alt text" /> <img
+src="Screenshot%20(76).png" alt="alt text" /></p>
+<hr />
+<h2 id="conclusion">4. Conclusion</h2>
+<p>Ce laboratoire a permis de :<br />
+- Maîtriser l’installation de GNS3 et VMware.<br />
+- Configurer des appliances Cisco (routeurs 7200/3725).<br />
+- Simuler une topologie réseau avec des PC virtuels.</p>
+<p>En conclusion, ce laboratoire pratique sur l’installation et la
+configuration de GNS3 dans VMware Workstation Pro nous a permis
+d’acquérir une compréhension approfondie des outils de simulation de
+réseau et de leur application dans un environnement virtuel. Grâce à
+l’ajout des images IOS Cisco, nous avons pu simuler des routeurs variés
+tels que le Cisco 7200 et le Cisco 3725, ainsi que configurer les PC
+associés pour reproduire une topologie réseau.</p>
+<p>En somme, l’apprentissage pratique est essentiel pour maîtriser les
+concepts théoriques et les appliquer efficacement dans des situations
+réelles.</p>
